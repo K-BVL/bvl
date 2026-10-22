@@ -1,0 +1,33 @@
+✔ single click does not destroy dirt (0.960625ms)
+✔ dirt requires sustained hold and breaks in less than one second (0.30075ms)
+✔ stone needs approximately two seconds (0.67625ms)
+✔ release resets all mining progress (0.192625ms)
+✔ changing target resets cracks (0.178333ms)
+✔ mining out of reach is rejected (0.087959ms)
+✔ bedrock cannot be mined (0.067792ms)
+✔ drop preserves the destroyed material and does not add inventory until collected (0.837209ms)
+✔ falling item lands on solid ground even after a large timestep (0.771708ms)
+✔ drop starts falling when support is removed (0.150917ms)
+✔ outside three cells there is no attraction (0.080791ms)
+✔ at exactly three cells attraction begins (0.07475ms)
+✔ leaving the pickup radius cancels attraction (0.099875ms)
+✔ collection credits exactly once (0.067959ms)
+✔ zero inventory cannot place or become negative (0.079875ms)
+✔ placement consumes one and rejects occupied or unsupported cells (0.084958ms)
+✔ placement cannot intersect player (0.05125ms)
+✔ placement and world reject out-of-bounds cells (0.37675ms)
+✔ complete mine drop pickup place cycle restores starting inventory and world (1.139083ms)
+✔ save/reload preserves mined terrain, inventory and uncollected items (1.941834ms)
+✔ corrupt saves are rejected (0.093875ms)
+✔ deterministic island is within the 32-cubed bound (2.213708ms)
+✔ player lands at the exact ground height and stays grounded (7.416625ms)
+✔ jump returns to the same ground without tunnelling (1.490875ms)
+✔ voxel raycast returns the visible cell and outward placement normal (0.179417ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 99.875083
